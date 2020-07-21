@@ -28,9 +28,12 @@
 
 
 #### stacking_datamining：文书关键词发掘与stacking分类
+
 1、feature_eng：特征工程，提取文书的重要信息，包括原告法人类别、被告机构类别、庭审程序、庭审类别、关键词等
 得到features_dummy文件
+
 生成用于训练的dataset：X.npy、Y.npy
+
 2、model_stacking：模型使用、套用xgb、lgb、rf等模型并stacking集成、得到对于胜诉与否的一个强分类器
 
 
